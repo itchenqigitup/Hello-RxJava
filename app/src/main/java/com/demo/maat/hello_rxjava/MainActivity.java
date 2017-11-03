@@ -14,7 +14,7 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-    @Nullable @BindView(R.id.btn_rxjava)
+    @BindView(R.id.btn_rxjava)
     Button mBtnRxjava;
     @BindView(R.id.btn_retrofit)
     Button mBtnRetrofit;
